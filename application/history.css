@@ -1,0 +1,46 @@
+body {
+  background-color: lightslategrey;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background: rgb(10, 10, 10);
+  background: rgba(10, 10, 10, 0.8);
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 75px;
+}
+
+#home {
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+  width: 100px;
+  background: #e7e7e7;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left: 95%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: gray;
+  background: rgb(10, 10, 10);
+  background: rgba(10, 10, 10, 0.8);
+}

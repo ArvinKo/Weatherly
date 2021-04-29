@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 80px;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-size: 100%;
+}
+
+.input {
+  text-align: center;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 600px;
+  background: rgb(10, 10, 10);
+  background: rgba(10, 10, 10, 0.8);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: blanchedalmond;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#error {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.display {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background-color: indigo;
+  border-radius: 20px;
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  top: 270px;
+  left: 30%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#mapLocation {
+  height: 400px;
+  width: 500px;
+  border: solid;
+  border-color: black;
+  position: absolute;
+  top: 270px;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#back {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  width: 120px;
+  height: 40px;
+  margin: 0;
+  position: absolute;
+  border-radius: 15px;
+  top: 600px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#ownLoc {
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+  width: 200px;
+  background: #e7e7e7;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: gray;
+  background: rgb(10, 10, 10);
+  background: rgba(10, 10, 10, 0.8);
+}
+
+#submit {
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgb(10, 10, 10);
+  background: rgba(10, 10, 10, 0.8);
+  color: gray;
+}
+
+#temp {
+  font-size: 110px;
+}
+
+#name {
+  font-size: 60px;
+}
+
+#thermom {
+  height: 120px;
+}
+
+#history {
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+  width: 100px;
+  background: #e7e7e7;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left: 95%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: gray;
+  background: rgb(10, 10, 10);
+  background: rgba(10, 10, 10, 0.8);
+}
+
+::placeholder {
+  color: rgb(131, 128, 128);
+  opacity: 1;
+}

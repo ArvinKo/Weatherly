@@ -1,0 +1,15 @@
+{
+  "name": "weatherappproject",
+  "version": "1.0.0",
+  "description": "Weather Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arvin Kouhi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}
